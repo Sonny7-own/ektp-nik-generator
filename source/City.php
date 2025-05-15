@@ -38,7 +38,7 @@ class City extends baseCity
 
     public function retrieveDataset(): void
     {
-        $rawData = file_get_contents(__DIR__ . '\data\city.json');
+        $rawData = file_get_contents(__DIR__ . '/data/city.json');
         $data = json_decode($rawData, true)['data'];
 
         $this->setDataset($data);
