@@ -2,9 +2,9 @@ name: testing
 
 on:
   push:
-    branches: [ unit-testing ]
+    branches: [ master ]
   pull_request:
-    branches: [ unit-testing ]
+    branches: [ master ]
 
   workflow_dispatch:
 
