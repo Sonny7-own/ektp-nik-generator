@@ -37,7 +37,7 @@ class District extends baseDistrict
 
     public function retrieveDataset(): void
     {
-        $rawData = file_get_contents(__DIR__ . '\data\district.json');
+        $rawData = file_get_contents(__DIR__ . '/data/district.json');
         $data = json_decode($rawData, true)['data'];
 
         $this->setDataset($data);
