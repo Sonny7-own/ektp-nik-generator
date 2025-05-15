@@ -1,8 +1,12 @@
 <h1 align="center"><b>e-KTP NIK Generator</b></h1>
 <p align="center">
   <img src="https://img.shields.io/packagist/dt/amculin/ektp-generator" alt="Packagist Download" />
-  <img src="https://img.shields.io/github/stars/amculin/ektp-nik-generator" alt="GitHub Repo stars" />
   <img src="https://img.shields.io/packagist/v/amculin/ektp-generator" alt="Packagist Version" />
+  <img src="https://img.shields.io/github/actions/workflow/status/amculin/ektp-nik-generator/testing.yml?labelColor=yellow&color=blue" alt="Build Status" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/github/forks/amculin/ektp-nik-generator" alt="GiHub Forks" />
+  <img src="https://img.shields.io/github/stars/amculin/ektp-nik-generator" alt="GitHub Repo stars" />
 </p>
 
 Generate a valid NIK randomly.
