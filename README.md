@@ -23,7 +23,7 @@ echo "NIK: {$identity->getNIK()}";
 ```
 Output:
 ```bash
-NIK: 3404086801690002
+NIK: 1222030905920006
 ```
 You can also get the other informations based on the generated NIK
 ```php
